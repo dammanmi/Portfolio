@@ -34,7 +34,7 @@ int main()
 		'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', 
 		'4', '5', '6', '7', '8', '9', '@', '#', '$', '%', '&', '*', '+', '?'};
 
-	cout << "Enter 0 for next-fit, 1 for best-fit: ";
+	cout << "Enter 0 for next-fit, 1 for worst-fit: ";
 	cin >> fit;
 	if(fit == 0)			// if next-fit argument is passed
 		nextFit = true;
