@@ -1,0 +1,12 @@
+CC=g++
+SOURCES=main.cpp CPUscheduler.cpp CPUjob.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=virtualization
+
+all: $(SOURCES) $(EXECUTABLE)
+
+$(EXECUTABLE: $(OBJECTS)
+	$(CC) $(OBJECTS) -o $@
+
+.cpp.o:
+	$(CC) $< -o $@
