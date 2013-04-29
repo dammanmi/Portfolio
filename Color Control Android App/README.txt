@@ -1,0 +1,3 @@
+The Color Control Android Application is a project I worked on along with three other students.  It's the product of a two semester Senior Design class where we plan, design, build, and test a project for a real world client.
+
+I can give a demo of the application in an emulated environment, however I cannot share the source code or apk file as it belongs to the project's client.  Here I've posted the abstract and summary powerpoint of the application.
